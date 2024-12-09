@@ -1,3 +1,7 @@
+import os
+import itertools
+import numpy as np
+
 class InlistManager:
     def __init__(self, filename):
         self.filename = filename
