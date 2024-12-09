@@ -33,11 +33,11 @@ Clone the repository or copy `mesa_grid.py` into your work folder. Ensure Python
 ### 1. Run `mesa_grid.py` with Python
 
 ```
-python mesa_grid.py
+python -i mesa_grid.py
 ```
 or
 ```
-python3 mesa_grid.py
+python3 -i mesa_grid.py
 ```
 
 ### 2. Initialize with a Template Inlist
