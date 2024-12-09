@@ -67,34 +67,16 @@ Use the following methods to modify the inlist programmatically:
 - **Remove a Parameter:**
 
   ```python
-  inlist.remove_parameter("section_name", "param")
-  ```
-
-  Example:
-
-  ```python
   inlist.remove_parameter("controls", "initial_mass")
   ```
 
 - **Update a Parameter:**
 
   ```python
-  inlist.update_parameter("section_name", "param", "new_value")
-  ```
-
-  Example:
-
-  ```python
   inlist.update_parameter("controls", "initial_mass", "5")
   ```
 
 - **Get a Parameter:**
-
-  ```python
-  inlist.get_parameter("section_name", "param")
-  ```
-
-  Example:
 
   ```python
   value = inlist.get_parameter("controls", "initial_mass")
