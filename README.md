@@ -26,14 +26,18 @@ This Python script, `mesa_grid.py`, provides a set of utilities to manage and ru
 
 ## Installation
 
-Clone the repository or copy `mesa_grid.py` into your work folder. Ensure Python and MESA are properly installed and accessible via the command line. It uses `os`, `itertools`, and `numpy` library, so make sure those are installed.
+Clone the repository or copy `mesa_grid.py` into your work folder. Ensure Python and MESA are properly installed and accessible via the command line. It uses `os`, `itertools`, and `numpy` libraries, so make sure those are installed.
 
 ## Usage
 
-### 1. Import the `InlistManager` Class
+### 1. Run `mesa_grid.py` with Python:
 
-```python
-from mesa_grid import InlistManager
+```
+python mesa_grid.py
+```
+or
+```
+python3 mesa_grid.py
 ```
 
 ### 2. Initialize with a Template Inlist
