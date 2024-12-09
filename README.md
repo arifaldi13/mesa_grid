@@ -15,7 +15,7 @@ This Python script, `mesa_grid.py`, provides a set of utilities to manage and ru
      - Parameter tables loaded from a file (using `run_grid_from_table`).
 
 3. **Automation of MESA Runs**:
-   - Sequentially run MESA simulations for each generated inlist file.
+   - Sequentially run MESA simulations from a set of parameters (the grid).
    - Organize and manage output data efficiently.
 
 ## Requirements
@@ -87,7 +87,9 @@ Use the following methods to modify the inlist programmatically:
   print(value)  # Outputs the value of initial_mass
 
 
-### 4. Generate Inlist Files
+### 4a. Generate Inlist Files
+
+Use this function to create individual inlists for each model specified in your parameter grid. If you want to run the grid without making the inlist files, continue to the section 4b.
 
 #### Using Parameter Sets
 
@@ -125,7 +127,7 @@ inlist.generate_inlists(table_file = "parameter_table.txt")
 
 This generates inlist files for each row in the table.
 
-### 4. Run MESA Simulations
+### 4b. Run MESA Simulations
 
 #### Using Parameter Sets
 
