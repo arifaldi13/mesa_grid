@@ -30,7 +30,7 @@ Clone the repository or copy `mesa_grid.py` into your work folder. Ensure Python
 
 ## Usage
 
-### 1. Run `mesa_grid.py` with Python:
+### 1. Run `mesa_grid.py` with Python
 
 ```
 python mesa_grid.py
