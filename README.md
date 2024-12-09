@@ -154,7 +154,3 @@ This tool is provided under the MIT License. You are free to modify and use it f
 ## Acknowledgments
 
 This tool is designed to streamline grid simulations in MESA and is inspired by the need for efficient parameter studies in stellar evolution research. See the [MESA website](https://docs.mesastar.org).
-
----
-
-Feel free to adjust the content to match any additional functionality or context you want to include!
