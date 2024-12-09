@@ -41,7 +41,7 @@ from mesa_grid import InlistManager
 Create an instance of `InlistManager` with a inlist file:
 
 ```python
-inlist_manager = InlistManager("inlist")
+inlist = InlistManager("inlist")
 ```
 
 The inlist file could already exist or you may write a new one using this code.
@@ -95,7 +95,7 @@ param_sets = {
         "initial_z": ([0.01, 0.02, 0.03], "controls")
 }
 
-inlist_manager.generate_inlists(param_sets)
+inlist.generate_inlists(param_sets)
 ```
 
 This generates inlist files for all combinations of `initial_mass` and `initial_z`.
@@ -116,7 +116,7 @@ controls       controls
 Run:
 
 ```python
-inlist_manager.generate_inlists(table_file = "parameter_table.txt")
+inlist.generate_inlists(table_file = "parameter_table.txt")
 ```
 
 This generates inlist files for each row in the table.
@@ -128,7 +128,7 @@ This generates inlist files for each row in the table.
 Directly execute simulations for all parameter combinations:
 
 ```python
-inlist_manager.run_grid(param_sets)
+inlist.run_grid(param_sets)
 ```
 
 #### Using a Parameter Table
@@ -136,7 +136,7 @@ inlist_manager.run_grid(param_sets)
 Directly execute simulations for all rows in the parameter table:
 
 ```python
-inlist_manager.run_grid(table_file = "parameter_table.txt")
+inlist.run_grid(table_file = "parameter_table.txt")
 ```
 
 Each simulation runs sequentially using the MESA executable `.\rn`, and the outputs are organized automatically.
